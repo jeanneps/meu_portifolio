@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,32 @@
     <!-- Link para o arquivo de estilo CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Navegação principal do site -->
     <nav>
         <ul>
             <!-- Itens do menu de navegação -->
-            <li><a>Sobre mim</a></li>
-            <li><a>Projetos</a></li>
-            <li><a>Skill</a></li>
-            <li><a>Contatos</a></li>
+            <a href="#sobre_mim">
+                <li><a>Sobre mim</a></li>
+            </a>
+            <a href="#projetos">
+                <li><a>Projetos</a></li>
+            </a>
+            <a href="#skill">
+                <li><a>Skill</a></li>
+            </a>
+            <a href="#contato">
+                <li><a>Contatos</a></li>
+            </a>
         </ul>
     </nav>
-    
+
     <!-- Cabeçalho do site -->
     <header>
         <!-- Espaço reservado para o cabeçalho -->
     </header>
-    
+
     <!-- Conteúdo principal do site -->
     <main>
         <section class="foto">
@@ -35,19 +45,22 @@
 
 
         <!-- Seção sobre mim -->
-        <section>
+        <section id = "sobre_mim">
             <h2>Sobre mim</h2>
             <div class="conteiner">
                 <p style="font-size: 20px; padding: 40px;">
-                    Sou uma futura desenvolvedora web, com grande entusiasmo por criar experiências digitais interativas.
-                    Estou explorando tecnologias como HTML, CSS e JavaScript e PHP e busco aprimorar minhas habilidades em frameworks como React, Angular.
-                    Tenho paixão por construir sites e aplicações que sejam tanto funcionais quanto esteticamente agradáveis. Estou buscando oportunidades para colaborar em projetos e aprimorar minhas habilidades.
+                    Sou uma futura desenvolvedora web, com grande entusiasmo por criar experiências digitais
+                    interativas.
+                    Estou explorando tecnologias como HTML, CSS e JavaScript e PHP e busco aprimorar minhas habilidades
+                    em frameworks como React, Angular.
+                    Tenho paixão por construir sites e aplicações que sejam tanto funcionais quanto esteticamente
+                    agradáveis. Estou buscando oportunidades para colaborar em projetos e aprimorar minhas habilidades.
                 </p>
             </div>
         </section>
 
         <!-- Seção de projetos -->
-        <section>
+        <section id = "projetos">
             <h2>Projetos</h2>
             <div style="padding: 30px;">
                 <!-- Projeto Doe Vida -->
@@ -62,7 +75,7 @@
         </section>
 
         <!-- Seção de habilidades -->
-        <section>
+        <section id = "skill">
             <h2>Skill</h2>
             <section id="skills">
                 <!-- Habilidade HTML5 -->
@@ -71,7 +84,8 @@
                         <i class="fab fa-html5"></i>
                         HTML5
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </li>
                 </ul>
@@ -81,7 +95,8 @@
                         <i class="fab fa-html5"></i>
                         CSS
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </li>
                 </ul>
@@ -91,7 +106,8 @@
                         <i class="fab fa-html5"></i>
                         JavaScript
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </li>
                 </ul>
@@ -101,7 +117,8 @@
                         <i class="fab fa-html5"></i>
                         PHP
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </li>
                 </ul>
@@ -111,17 +128,18 @@
                         <i class="fab fa-html5"></i>
                         GIT
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </li>
                 </ul>
             </section>
         </section>
     </main>
-    
+
     <!-- Rodapé do site -->
     <footer>
-        <section>
+        <section id = "Contato">
             <h2>Contatos</h2>
             <div class="contato">
                 <!-- Link para o perfil do GitHub -->
@@ -136,4 +154,5 @@
         </section>
     </footer>
 </body>
+
 </html>
