@@ -50,6 +50,7 @@ img {
     display: flex; /* Define o layout dos itens dentro da classe contato como flexível */
     align-items: center; /* Alinha verticalmente os itens ao centro */
     justify-content: center; /* Alinha horizontalmente os itens ao centro */
+    padding: 30px;
 }
 
 #skills {
