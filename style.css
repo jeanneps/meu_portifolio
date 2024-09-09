@@ -33,9 +33,13 @@ h2 {
     
     
 }
-
-nav ul:houver {
-    color: rgb(151, 58, 238); /* Define a cor do texto dos itens da lista dentro de um elemento <nav> quando o cursor está sobre eles (erro de digitação; deveria ser :hover) */
+a {
+    text-decoration: none;
+    color: white;
+}
+a :hover  {
+    color: rgb(151, 58, 238);  /* Define a cor do texto dos itens da lista dentro de um elemento*/
+    text-decoration: underline;
 }
 
 img {
