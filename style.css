@@ -1,20 +1,80 @@
-
-
-body{
-    background-color: black;
-    color: white;
+/* Aplica regras globais a todos os elementos */
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui a borda e o preenchimento no cálculo da largura e altura dos elementos */
 }
+
+body {
+    background-color: black; /* Define a cor de fundo da página como preto */
+    color: white; /* Define a cor do texto como branco */
+    padding: 0 20px;
+}
+section{
+    padding: 35px;
+}
+
+
 ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 30px;
-    font-size: 20px;
-    cursor: pointer;
+    display: flex; /* Define o layout dos itens da lista como flexível */
+    justify-content: space-between; /* Distribui o espaço entre os itens igualmente */
+    list-style-type: none; /* Remove os marcadores padrão das listas */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    padding: 30px; /* Adiciona um preenchimento de 30px ao redor dos itens da lista */
+    font-size: 20px; /* Define o tamanho da fonte dos itens da lista como 20px */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar sobre os itens */
 }
-h1 {
-   
-    background-color: rgb(151, 58, 238);
+
+h2 {
+    background-color: rgb(151, 58, 238); /* Define a cor de fundo do título como uma cor roxa */
+    text-align: center; /* Alinha o texto do título ao centro */
+    /* width: 300px; */
+    /* margin-left: 40%; */
+    
     
 }
+
+nav ul:houver {
+    color: rgb(151, 58, 238); /* Define a cor do texto dos itens da lista dentro de um elemento <nav> quando o cursor está sobre eles (erro de digitação; deveria ser :hover) */
+}
+
+img {
+    width: 70px; /* Define a largura das imagens como 70 pixels */
+}
+.foto {
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    display: flex; /* Define o layout dos itens dentro da classe contato como flexível */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
+    justify-content: center; /* Alinha horizontalmente os itens ao centro */
+}
+
+#skills {
+    text-align: center; /* Alinha o texto dentro do elemento com id skills ao centro */
+}
+
+#skills ul {
+    list-style: none; /* Remove os marcadores padrão das listas dentro do elemento com id skills */
+    padding: 0; /* Remove o preenchimento interno das listas dentro do elemento com id skills */
+}
+
+#skills li {
+    margin: 10px; /* Adiciona uma margem de 10px ao redor de cada item da lista dentro do elemento com id skills */
+    display: inline-block; /* Exibe os itens da lista lado a lado, em linha */
+}
+
+.progress {
+    height: 15px; /* Define a altura da barra de progresso como 15 pixels */
+    background-color: white; /* Define a cor de fundo da barra de progresso como branco */
+    border-radius: 5px; /* Adiciona bordas arredondadas com raio de 5 pixels */
+}
+
+.progress-bar {
+    height: 100%; /* Define a altura da barra de progresso interna como 100% da altura do elemento pai */
+    background-color: rgb(151, 58, 238); /* Define a cor de fundo da barra de progresso interna como roxa */
+    border-radius: 5px; /* Adiciona bordas arredondadas com raio de 5 pixels */
+}
+

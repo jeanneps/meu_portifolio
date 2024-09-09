@@ -1,64 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeane Pacheco</title>
+    <!-- Link para o arquivo de estilo CSS -->
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
+    <!-- Navegação principal do site -->
     <nav>
         <ul>
-            <li >
-                <a>Sobre mim</a>
-            </li>
-            <li>
-                <a>skill</a>
-            </li>
-            <li>
-                <a>Projetos</a>
-            </li>
-            <li>
-                <a>Contatos</a>
-            </li>
+            <!-- Itens do menu de navegação -->
+            <li><a>Sobre mim</a></li>
+            <li><a>Skill</a></li>
+            <li><a>Projetos</a></li>
+            <li><a>Contatos</a></li>
         </ul>
     </nav>
+    
+    <!-- Cabeçalho do site -->
     <header>
-
+        <!-- Espaço reservado para o cabeçalho -->
     </header>
+    
+    <!-- Conteúdo principal do site -->
     <main>
-        <section>
-            <h1>Sobre mim</h1>
+        <section class="foto">
+            <img src="/imgs/jeane.png" alt="foto perfil">
+
+
         </section>
 
 
 
-
+        <!-- Seção sobre mim -->
         <section>
-            <h1>Projetos</h1>
+            <h2>Sobre mim</h2>
+            <div class="conteiner">
+                <p style="font-size: 20px; padding: 40px;">
+                    Sou uma futura desenvolvedora web, com grande entusiasmo por criar experiências digitais interativas.
+                    Estou explorando tecnologias como HTML, CSS e JavaScript e PHP e busco aprimorar minhas habilidades em frameworks como React, Angular, Vue.
+                    Tenho paixão por construir sites e aplicações que sejam tanto funcionais quanto esteticamente agradáveis. Estou buscando oportunidades para colaborar em projetos e aprimorar minhas habilidades.
+                </p>
+            </div>
         </section>
 
-        
+        <!-- Seção de projetos -->
         <section>
-            <h1>skill</h1>
+            <h2>Projetos</h2>
+            <div>
+                <!-- Projeto Doe Vida -->
+                <img src="/imgs/logo-doe-vida.png" alt="projeto doe vida">
+                <h3>Projeto: Doe Vida</h3>
+            </div>
+            <div>
+                <!-- Projeto Estante Web -->
+                <img src="/imgs/favicon.icon.jpg" alt="projeto estante web">
+                <h3>Projeto: Estante Web</h3>
+            </div>
         </section>
 
-
+        <!-- Seção de habilidades -->
         <section>
-            <h1>Contatos</h1>
-            
-
-
-
-
-
+            <h2>Skill</h2>
+            <section id="skills">
+                <!-- Habilidade HTML5 -->
+                <ul>
+                    <li>
+                        <i class="fab fa-html5"></i>
+                        HTML5
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Habilidade CSS -->
+                <ul>
+                    <li>
+                        <i class="fab fa-html5"></i>
+                        CSS
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Habilidade JavaScript -->
+                <ul>
+                    <li>
+                        <i class="fab fa-html5"></i>
+                        JavaScript
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Habilidade PHP -->
+                <ul>
+                    <li>
+                        <i class="fab fa-html5"></i>
+                        PHP
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Habilidade GIT -->
+                <ul>
+                    <li>
+                        <i class="fab fa-html5"></i>
+                        GIT
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
         </section>
     </main>
-
-
+    
+    <!-- Rodapé do site -->
+    <footer>
+        <section>
+            <h2>Contatos</h2>
+            <div class="contato">
+                <!-- Link para o perfil do GitHub -->
+                <a href="https://github.com/jeanneps">
+                    <img src="../imgs/github.jpg" alt="Acesse meu perfil no GitHub">
+                </a>
+                <!-- Link para o perfil do LinkedIn -->
+                <a href="https://www.linkedin.com/feed/">
+                    <img src="../imgs/linkedin.png" alt="Acesse meu perfil no LinkedIn">
+                </a>
+            </div>
+        </section>
+    </footer>
 </body>
-
 </html>
