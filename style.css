@@ -8,7 +8,7 @@
 body {
     background-color: black; /* Define a cor de fundo da página como preto */
     color: white; /* Define a cor do texto como branco */
-    padding: 0 20px;
+    padding: 0 15px;
 }
 section{
     padding: 35px;
@@ -25,12 +25,17 @@ ul {
     cursor: pointer; /* Muda o cursor para uma mão ao passar sobre os itens */
 }
 
+#sobreMim {
+    background-color: rgb(151, 58, 238);
+    width: 30%;
+    margin-left: 10px;
+    
+   
+}
+
 h2 {
     background-color: rgb(151, 58, 238); /* Define a cor de fundo do título como uma cor roxa */
     text-align: center; /* Alinha o texto do título ao centro */
-    /* width: 300px; */
-    /* margin-left: 40%; */
-    
     
 }
 a {
@@ -43,22 +48,30 @@ a :hover  {
 }
 
 img {
-    width: 70px; /* Define a largura das imagens como 70 pixels */
+    width: 10%; /* Define a largura das imagens como 70 pixels */
 }
 .foto {
     display: flex;
     justify-content: center;
+}
+.container3{
+    display: flex;
+     justify-content:space-around; 
+    /* gap: 30px; */
 }
 
 .contato {
     display: flex; /* Define o layout dos itens dentro da classe contato como flexível */
     align-items: center; /* Alinha verticalmente os itens ao centro */
     justify-content: center; /* Alinha horizontalmente os itens ao centro */
-    padding: 30px;
+    padding: 20px;
 }
 
 #skills {
     text-align: center; /* Alinha o texto dentro do elemento com id skills ao centro */
+    /* width: 50%; */
+    right: 30px;
+   
 }
 
 #skills ul {
